@@ -1,0 +1,52 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+/* Header */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu > ul {
+  display: flex;
+}
+
+.menu > ul > li {
+  list-style: none;
+  padding: 10px;
+}
+
+/* Body */
+
+.card {
+  border: 1px solid ;
+  width: 200px;
+  padding: 10px;
+}
+
+
+.card > img {
+  width: 100%;
+}
+
+.restaurant-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+/* Footer */
