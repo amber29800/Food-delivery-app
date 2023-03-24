@@ -1,5 +1,10 @@
-h1, h2, h3, h4, h5, h6{
-  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
 }
 
 /* Header */
@@ -16,15 +21,15 @@ h1, h2, h3, h4, h5, h6{
   height: 80px;
 }
 
-.menu {
+.header-menu {
   display: flex;
 }
 
-.menu > ul {
+.header-menu > ul {
   display: flex;
 }
 
-.menu > ul > li {
+.header-menu > ul > li {
   list-style: none;
   padding: 10px;
 }
@@ -32,11 +37,11 @@ h1, h2, h3, h4, h5, h6{
 /* Body */
 
 .card {
-  border: 1px solid ;
+  border: 1px solid;
   width: 200px;
   padding: 10px;
+margin: 5px;
 }
-
 
 .card > img {
   width: 100%;
@@ -46,7 +51,13 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   flex-wrap: wrap;
   margin: 0 10%;
-  justify-content: space-between;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  background-color: lightgrey;
+  margin: 10px;
 }
 
 /* Footer */
