@@ -60,4 +60,10 @@ margin: 5px;
   margin: 10px;
 }
 
+/* Restaurant info page */
+
+.restaurant-page {
+  display: flex;
+}
+
 /* Footer */
